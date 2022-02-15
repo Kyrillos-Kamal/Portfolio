@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+::selection {
+  background-color: #f58840;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+#navbarSupportedContent > ul > li.nav-item.custom > a:hover {
+  color: black !important;
+  background-color: white !important;
+  border-radius: 10px !important;
+  transition: 500ms ease;
+}
+@media screen and (max-width: 500px) {
+  section .item {
+    width: 50% !important;
+  }
+}
+
+body > section > div > div.col-md-8 > div > h1 {
+  font-size: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+body > section > div > div.col-md-8 > div > h1 > span {
+  color: #f58840;
+}
+#app {
+  color: #eadede;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 770px) {
+  body > section > div > div.col-md-8 > div > h1 {
+    font-size: 1.5rem;
+  }
+
+  body > section > div > div > div.col-md-8 > div > div > div > h2 {
+    font-size: 1.5rem;
+  }
+  body > section > div > div.col-md-4 > div > img {
+    width: 70% !important;
+  }
+}
+
+#about,
+#protfolio,
+#protfolio {
+  background-image: url(../Images/dotted.png);
+}
+
+#about div.about {
+  border-radius: 17px;
+  background: linear-gradient(145deg, #e7e2e2, #eadede);
+}
+
+#about > div > div > div > div > div:nth-child(1) > i {
+  color: #f58840;
+}
+
+#protfolio > div > div.row > div.text-center > a {
+  background-color: #f58840 !important;
+  border: none;
+  box-shadow: none;
+}
+
+.warning {
+  border: 2px solid red;
+}

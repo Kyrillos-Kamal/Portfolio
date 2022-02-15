@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--                                bootStrap                                -->
+    <link rel="stylesheet" href="Style/bootstrap.min.css" />
+
+    <!--                               fontAwesome                               -->
+    <link rel="stylesheet" href="Style/all.min.css" />
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                web logo                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+    <link rel="shortcut icon" href="Images/icon.png" type="image/x-icon" />
+
+    <!--                                 myStyle                                 -->
+    <link rel="stylesheet" href="Style/myStyle.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--                             Start Nav                                   -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-3 mb-4">
+      <div class="container">
+        <a class="navbar-brand text-white" href="index.html">PORTFOLIO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link" aria-current="page" href="#about">ABOUT ME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#protfolio">PORTFOLIO</a>
+            </li>
+            <li class="nav-item custom">
+              <a class="nav-link px-3" href="Files/Resume-Kyrillos-Kamal.pdf"
+                >DOWNLOAD CV</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--                               End Nav                                   -->
+
+    <!--                              Start Landing                              -->
+    <section class="container">
+      <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-md-4">
+          <div class="w-100 text-center">
+            <img
+              src="Images/icon.png"
+              class="img-fluid border border-5 rounded-circle"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="w-100 text-center">
+            <h1 class="text-uppercase text-white">
+              I'm <span>Working</span> as
+            </h1>
+            <h2 id="app"></h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                              End Landing                              -->
+
+    <!-- Start About -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="about text-center py-5">
+              <div class="mb-3">
+                <i class="fa-solid fa-clock fa-4x"></i>
+              </div>
+              <div class="mb-3">
+                <h2 class="fs-4">On Time</h2>
+              </div>
+              <div class="mb-3">
+                <p class="px-5 fs-5">Finishing all my products on time</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="about text-center py-5">
+              <div class="mb-3">
+                <i class="fa-solid fa-code fa-4x"></i>
+              </div>
+              <div class="mb-3">
+                <h2 class="fs-4">Clean Code</h2>
+              </div>
+              <div class="mb-3">
+                <p class="px-5 fs-5">
+                  I deliver a clean code for the client to get his satisfaction.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="about text-center py-5">
+              <div class="mb-3">
+                <i class="fa-solid fa-face-smile fa-4x"></i>
+              </div>
+              <div class="mb-3">
+                <h2 class="fs-4">Client Satisfaction</h2>
+              </div>
+              <div class="mb-3">
+                <p class="px-5 fs-5">Focus more on deliver what client needs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start Portfolio -->
+    <section id="protfolio" class="py-5 mb-5">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="fs-1 fw-bold">My Portfolio</h2>
+          <h4 class="fs-5 fw-bold">Web & App</h4>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <div class="position-relative infoGym overflow-hidden">
+              <img
+                src="https://i.postimg.cc/fTznRPs8/screenshot-13.png"
+                class="img-fluid rounded shadow-lg gym"
+                alt=""
+              />
+              <div
+                id="overlay"
+                class="text-center overlayGym bg-black opacity-75 position-absolute top-0 w-100 h-100 d-none flex-column justify-content-center align-items-center"
+              >
+                <h3 class="text-white mb-1">Gym Academy</h3>
+                <p class="text-white mb-3">Responsive Website for Gym</p>
+                <a
+                  href="https://kyrillos1993.github.io/GymAcademy/"
+                  class="text-decoration-none btn btn-primary"
+                  target="_blank"
+                  >Visit</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="position-relative infoLeon overflow-hidden" id="info">
+              <img
+                src="https://i.postimg.cc/X7d2rpTj/screenshot-14.png"
+                class="img-fluid rounded shadow-lg leon"
+                alt=""
+              />
+              <div
+                id="overlay"
+                class="text-center overlayLeon bg-black opacity-75 position-absolute top-0 w-100 h-100 d-none flex-column justify-content-center align-items-center"
+              >
+                <h3 class="text-white">Leon</h3>
+                <p class="text-white mb-3">
+                  First Responsive Webpage Puer HTML & CSS
+                </p>
+                <a
+                  href="https://kyrillos1993.github.io/Leon/"
+                  class="text-decoration-none btn btn-primary"
+                  target="_blank"
+                  >Visit</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="position-relative infoBand overflow-hidden" id="info">
+              <img
+                src="https://i.postimg.cc/B6H3dBry/screenshot-15.png"
+                class="img-fluid rounded shadow-lg band"
+                alt=""
+              />
+              <div
+                id="overlay"
+                class="text-center overlayBand bg-black opacity-75 position-absolute top-0 w-100 h-100 d-none flex-column justify-content-center align-items-center"
+              >
+                <h3 class="text-white">The Band</h3>
+                <p class="text-white mb-3">
+                  Practice From the Great Documentation template W3School
+                </p>
+                <a
+                  href="https://kyrillos1993.github.io/TheBand/"
+                  class="text-decoration-none btn btn-primary"
+                  target="_blank"
+                  >Visit</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="position-relative infoKasper overflow-hidden" id="info">
+              <img
+                src="https://i.postimg.cc/5yv2xMZx/screenshot-16.png"
+                class="img-fluid rounded shadow-lg kasper"
+                alt=""
+              />
+              <div
+                id="overlay"
+                class="text-center overlayKasper bg-black opacity-75 position-absolute top-0 w-100 h-100 d-none flex-column justify-content-center align-items-center"
+              >
+                <h3 class="text-white">Kasper</h3>
+                <p class="text-white mb-3">Kasper using bootstrap</p>
+                <a
+                  href="https://kyrillos1993.github.io/Kasper//"
+                  class="text-decoration-none btn btn-primary"
+                  target="_blank"
+                  >Visit</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <a
+              href="https://github.com/kyrillos1993?tab=repositories"
+              class="btn btn-primary p-2 px-3 m-auto"
+              target="_blank"
+              >For More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio -->
+
+    <!-- start hire section -->
+    <section id="hire" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5 text-white">
+          <h2 class="fs-1 fw-bold">Want To Hire Me?</h2>
+          <h4 class="fs-5 fw-bold">If You Like My Work</h4>
+        </div>
+        <div class="w-100 text-center mb-5">
+          <div class="input-group mb-3 w-75 mx-auto">
+            <input
+              type="email"
+              id="userEmail"
+              class="form-control shadow-none"
+              placeholder="Insert Your Email"
+              aria-label="Insert Your Email"
+              aria-describedby="hireBtn"
+            />
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              id="hireBtn"
+            >
+              Hire Me
+            </button>
+          </div>
+        </div>
+        <div class="text-center">
+          <p class="text-white fs-5">Contact Me</p>
+          <div class="w-25 mx-auto">
+            <a
+              href="https://github.com/kyrillos1993"
+              class="fa-brands fa-github fa-2x text-decoration-none text-white mx-3"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/kyrillos-kamal/"
+              class="fa-brands fa-linkedin-in fa-2x text-decoration-none text-white mx-3"
+            ></a>
+            <a
+              href="https://discordapp.com/users/Dusty™#4174/"
+              class="fa-brands fa-discord fa-2x text-decoration-none text-white mx-3"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end hire section -->
+    <!-- Start Footer -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-4 mb-4">
+            <div class="w-25 mx-auto">
+              <a href="index.html" class="text-center">
+                <img
+                  src="Images/icon.png"
+                  class="w-100 img-fluid border border-5 rounded-circle"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="d-flex justify-content-around align-items-center py-4">
+              <a href="#about" class="text-decoration-none text-white">
+                ABOUT ME</a
+              >
+              <a href="#protfolio" class="text-decoration-none text-white"
+                >PORTFOLIO</a
+              >
+              <a
+                href="Files/Resume-Kyrillos-Kamal.pdf"
+                class="text-decoration-none text-white"
+                >Download CD</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!--bootstrap -->
+    <script src="Javascript/bootstrap.bundle.min.js"></script>
+    <!--jQuery -->
+    <script src="Javascript/jquery-3.6.0.min.js"></script>
+    <!-- type animation -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!--MyScript -->
+    <script src="Javascript/myScript.js"></script>
+  </body>
+</html>
