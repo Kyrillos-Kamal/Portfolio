@@ -9,8 +9,13 @@ html {
 }
 body {
   background-color: black;
-  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+   body::-webkit-scrollbar {
+        display: none;
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
 
 #navbarSupportedContent > ul > li.nav-item.custom > a:hover {
   color: black !important;
