@@ -59,7 +59,7 @@ body > section > div > div.col-md-8 > div > h1 > span {
 #about,
 #protfolio,
 #protfolio {
-  background-image: url(../Images/dotted.png);
+  /*background-image: url(../Images/dotted.png);*/
 }
 
 #about div.about {
