@@ -1,5 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+::-moz-selection {
+  background-color: #f58840;
 }
 ::selection {
   background-color: #f58840;
@@ -11,7 +22,7 @@ body {
   background-color: black;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-   body::-webkit-scrollbar {
+body::-webkit-scrollbar {
         display: none;
         -ms-overflow-style: none; /* IE and Edge */
         scrollbar-width: none; /* Firefox */
@@ -21,6 +32,8 @@ body {
   color: black !important;
   background-color: white !important;
   border-radius: 10px !important;
+  -webkit-transition: 500ms ease;
+  -o-transition: 500ms ease;
   transition: 500ms ease;
 }
 @media screen and (max-width: 500px) {
@@ -64,6 +77,7 @@ body > section > div > div.col-md-8 > div > h1 > span {
 
 #about div.about {
   border-radius: 17px;
+  background: -o-linear-gradient(305deg, #e7e2e2, #eadede);
   background: linear-gradient(145deg, #e7e2e2, #eadede);
 }
 
@@ -74,7 +88,8 @@ body > section > div > div.col-md-8 > div > h1 > span {
 #protfolio > div > div.row > div.text-center > a {
   background-color: #f58840 !important;
   border: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .warning {
